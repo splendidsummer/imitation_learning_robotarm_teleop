@@ -1,0 +1,6 @@
+Thu Jul 31 16:30:45 2025
+WARNING: mju_openResource: unknown file 'panda.xml'
+
+Thu Jul 31 17:00:41 2025
+WARNING: mju_openResource: unknown file '.franka_emika_panda/panda.xml'
+

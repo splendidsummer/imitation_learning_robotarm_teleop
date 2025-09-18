@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mujoco model="board">
+  <compiler angle="radian" autolimits="true"/>
+  <asset>
+    <mesh file="../props/board/assets/board.obj"/>
+    <texture type="2d" name="board" file="../props/board/assets/board_basecolor.png"/>
+    <material name="board" specular="0.2" shininess="0.2" texture="board"/>
+  </asset>
+  <default>
+    <default class="board">
+      <default class="board_visual">
+        <geom type="mesh" mass="1" contype="0" conaffinity="0" group="2"/>
+      </default>
+      <default class="board_collision">
+        <geom type="mesh" mass="0" group="3" solimp="0.95 0.98 0.001" solref="0.004 1"/>
+      </default>
+    </default>
+  </default>
+  <worldbody>
+    <body name="board" childclass="board">
+      <freejoint name="board_free_joint" />
+      <geom name="board" mesh="board" class="board_visual" material="board" euler="1.5708 0 0"/>
+      <geom name="board_collider_1" type="box" size="0.142 0.182 0.0075" pos="0 0 0.0075" class="board_collision"/>
+      <geom name="board_collider_2" type="box" size="0.128 0.165 0.0075" pos="0 0 0.0225" class="board_collision"/>
+    </body>
+  </worldbody>
+</mujoco>

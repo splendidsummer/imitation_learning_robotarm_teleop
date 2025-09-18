@@ -1,0 +1,27 @@
+# Core dependencies for imitation_learning_lerobot
+
+# Scientific computing
+numpy>=1.21.0
+scipy>=1.7.0
+
+# Computer vision and image processing
+opencv-python>=4.5.0
+
+# Data handling
+h5py>=3.1.0
+
+# Robotics libraries
+mujoco>=3.0.0
+roboticstoolbox-python>=1.0.0
+spatialmath-python>=1.0.0
+modern-robotics>=1.0.0
+
+# Game controller support
+pygame>=2.0.0
+
+# Utility libraries
+loop-rate-limiters>=1.0.0
+
+# Optional: LeRobot integration
+# Note: Install lerobot separately if needed:
+# pip install lerobot

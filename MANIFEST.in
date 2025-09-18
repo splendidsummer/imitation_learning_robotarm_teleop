@@ -1,0 +1,33 @@
+# Include documentation
+include README.md
+include LICENSE
+include *.md
+
+# Include configuration files
+include *.cfg
+include *.ini
+include *.toml
+include *.yaml
+include *.yml
+
+# Include scripts
+recursive-include scripts *.sh
+recursive-include scripts *.py
+
+# Include assets and data files
+recursive-include imitation_learning_lerobot/assets *
+recursive-include imitation_learning_lerobot/configs *.py
+
+# Include test files
+recursive-include tests *.py
+
+# Exclude certain file types
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude *.pyd
+global-exclude __pycache__
+global-exclude .git*
+global-exclude .DS_Store
+global-exclude *.so
+global-exclude .vscode
+global-exclude *.egg-info
