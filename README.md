@@ -35,3 +35,19 @@ conda activate imitation_learning
  
 python -m imitation_learning_lerobot.scripts.collect_data_teleoperation --env.type=pick_box  --handler.type=keyboard
 ```
+Below is the keyboard button to control the robot arm. 
+```
+------------------------------
+Start:           Right Ctrl
+Pause:           Right Shift
+Stop:            Enter
++X:              Keypad 1
+-X:              Keypad 7
++Y:              Keypad 6
+-Y:              Keypad 4
++Z:              Keypad 8
+-Z:              Keypad 2
+Open:            Keypad 3
+Close:           Keypad 9
+The environment cameras including: top, hand
+```
