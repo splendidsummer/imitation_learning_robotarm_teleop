@@ -1,7 +1,7 @@
 from .handler import Handler
 from .handler_factory import HandlerFactory
 
-from .joycon import PickBoxJoyconHandler
+from .joycon import PickBoxJoyconHandler, PickBoxJoyconEvdevHandler
 from .keyboard import PickBoxKeyboardHandler
 
 HandlerFactory.register_all()

@@ -1,0 +1,5 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting Click!=8.0.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/98/78/01c019cdb5d6498122777c1a43056ebb3ebfeef2076d9d026bfe15583b2b/click-8.3.1-py3-none-any.whl (108 kB)
+Installing collected packages: Click
+Successfully installed Click-8.3.1

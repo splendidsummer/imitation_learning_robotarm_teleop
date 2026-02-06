@@ -1,1 +1,2 @@
-from .pick_box_joycon_handler import PickBoxJoyconHandler
+from .pick_box_joycon_handler import PickBoxJoyconHandler, Handler
+from .pick_box_joycon_handler_evdev import PickBoxJoyconEvdevHandler

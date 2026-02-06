@@ -1,0 +1,1 @@
+python -m imitation_learning_lerobot.scripts.collect_data_teleoperation --env.type=pick_box  --handler.type=joycon_evdev
